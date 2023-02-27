@@ -120,13 +120,13 @@
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
                 <executions>
-                    <execution>
+                   <!--  <execution>
                         <id>auto-clean</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>clean</goal>
                         </goals>
-                    </execution>
+                    </execution> -->
                 </executions>
             </plugin>
             <plugin>
