@@ -8,7 +8,8 @@
     "build": "ng lint && ng build --configuration=aem-develop && clientlib",
     "build:production": "ng lint && ng build --prod && clientlib",
     "test": "ng test",
-    "sync": "aemsync -d -w ../ui.apps/src/main/content"
+    "sync": "aemsync -d -w ../ui.apps/src/main/content",
+    "start-w-proxy": "ng serve --proxy-config proxy.aem.dev.conf.json"
     
   },
   "dependencies": {
