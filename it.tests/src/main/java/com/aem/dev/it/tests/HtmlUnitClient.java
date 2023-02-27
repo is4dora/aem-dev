@@ -24,7 +24,6 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.sling.testing.clients.ClientException;
 import org.apache.sling.testing.clients.SlingClientConfig;
-import org.slf4j.LoggerFactory;
 import org.w3c.dom.Node;
 
 import java.io.IOException;
@@ -44,7 +43,7 @@ import static org.junit.Assert.fail;
 public class HtmlUnitClient extends CQClient {
 
 
-    private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(HtmlUnitClient.class);
+    /* private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(HtmlUnitClient.class); */
 
     private final WebClient webClient = new WebClient();
 
